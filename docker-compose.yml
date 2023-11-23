@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+ identification:
+   image: zjrwtx/identification:v2
+   ports:
+     - "7860:7860"
+   restart: always
